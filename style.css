@@ -1,0 +1,26 @@
+body {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+
+#canvas {
+	background: #0D0E16;
+	margin: 5px;
+}
+
+#button1 {
+	position: fixed;
+	top: 110px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 240px;
+	height: 130px;
+	outline: none;
+	font-size: 70px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	background: #d04040;
+}
